@@ -1,0 +1,3 @@
+Bir sınıf, ihtiyaç duymadığı metotlara veya özelliklere bağımlı olmamalıdır. 
+Genel arayüzler yerine özel amaçlı arayüzler tercih edilmelidir, böylece sınıflar 
+yalnızca kullandıkları özelliklere bağımlı olurlar.

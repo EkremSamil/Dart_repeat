@@ -1,0 +1,5 @@
+Bir sınıfın yalnızca bir sorumluluğu olmalıdır. 
+Her sınıfın yalnızca bir işlevi yerine getirmesi,
+kodun anlaşılırlığını, test edilebilirliğini ve bakımını kolaylaştırır.
+
+

@@ -1,0 +1,31 @@
+enum Gender { Male, Female, Other }
+
+class Person {
+  String name;
+  int age;
+  Gender gender;
+
+  Person(this.name, this.age, this.gender);
+
+  void introduce() {
+    String genderText;
+    switch (gender) {
+      case Gender.Male:
+        genderText = "Erkek";
+        break;
+      case Gender.Female:
+        genderText = "Kadın";
+        break;
+      case Gender.Other:
+        genderText = "Diğer";
+        break;
+    }
+
+    print("Merhaba, ben $name, $age yaşındayım ve cinsiyetim $genderText.");
+  }
+}
+
+void main() {
+  Person person = Person("Ekrem", 23, Gender.Male);
+  person.introduce();
+}

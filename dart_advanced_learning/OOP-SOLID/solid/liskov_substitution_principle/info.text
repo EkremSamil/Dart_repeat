@@ -1,0 +1,3 @@
+Alt sınıflar, üst sınıfların yerine geçebilmeli ve programın beklenen davranışını bozmadan kullanılmalıdır. 
+Yani, bir üst sınıfa ait nesne yerine alt sınıfa ait bir nesne kullanıldığında, 
+program hala doğru sonuçlar üretmelidir.

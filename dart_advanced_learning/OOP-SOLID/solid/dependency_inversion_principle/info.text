@@ -1,0 +1,4 @@
+Sınıflar, somut uygulamalar yerine soyut arayüzleri hedeflemelidir. 
+Yüksek seviyeli modüller, düşük seviyeli modüllere doğrudan bağımlı olmamalıdır. 
+Bağımlılıklar, soyutlama ve enjeksiyon kullanılarak tersine çevrilmelidir.
+

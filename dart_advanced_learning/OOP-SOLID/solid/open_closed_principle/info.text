@@ -1,0 +1,3 @@
+Bir sınıf, değişikliklere kapalı, ancak genişletmeye açık olmalıdır.
+Mevcut bir sınıfın davranışını değiştirmeden yeni davranışlar eklemek mümkün olmalıdır. 
+Böylece mevcut kodun etkilenmeden kalması ve yeni gereksinimlere uyum sağlaması sağlanır.
